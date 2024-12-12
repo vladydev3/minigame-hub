@@ -33,7 +33,7 @@ export default function TicTacToe() {
       [0, 4, 8],
       [2, 4, 6],
     ];
-    for (let line of lines) {
+    for (const line of lines) {
       const [a, b, c] = line;
       if (cells[a] && cells[a] === cells[b] && cells[a] === cells[c]) {
         return cells[a];

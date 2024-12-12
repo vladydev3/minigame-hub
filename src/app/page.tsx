@@ -34,7 +34,7 @@ export default function HomePage() {
       </header>
 
       <main className="flex-grow pt-16 bg-gray-100">
-        <section className=" text-black py-20">
+        <section className="bg-white text-black py-20">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Welcome to MiniGame Hub
